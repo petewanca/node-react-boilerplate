@@ -3,12 +3,12 @@ const express = require('express');
 const app = express();
 const PORT = 5000;
 
-app.use('/test', (req, res) => {
+app.use('/api/folks', (req, res) => {
   folks = [
     { name: 'Pete' },
     { name: 'Megan' }
   ];
-  
+
   res.json(folks);
 })
 
