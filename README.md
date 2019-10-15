@@ -1,5 +1,5 @@
 # node-react-boilerplate
-My guide to connecting a React app to a Node/Express Server for your full stack application. Not only can you just download this repo to get started on your full stack application, but you can also follow the steps below to build this blueprint for yourself - Which I highly recommend!
+My guide to connecting a React app to a Node/Express Server for your full stack application. Not only can you just download this repo to get started on your full stack application, but you can also follow the steps below to build this blueprint for yourself - which I highly recommend!
 
 1. Create server.js file to house server code
 2. Create package.json file: `npm init -y`
