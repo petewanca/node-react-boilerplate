@@ -1,0 +1,25 @@
+{
+  "name": "node-react-boilerplate",
+  "version": "1.0.0",
+  "description": "My guide to connecting your React app to your Node Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petewanca/node-react-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petewanca/node-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/petewanca/node-react-boilerplate#readme",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1"
+  }
+}
