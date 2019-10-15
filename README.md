@@ -1,5 +1,5 @@
 # node-react-boilerplate
-My guide to connecting a React app to a Node/Express Server for your full stack application. Not only can you just download this repo to get started on your full stack application, but you can also follow the steps below to build this blueprint for yourself - which I highly recommend!
+My guide to connecting a React app to a Node/Express Server for your full stack application. Not only can you just download this repo to get started on your full stack application, but you can also follow the steps below to build this blueprint for yourself - which I highly recommend! Ten steps and less than ten minutes. Run through this twice and you'll have it memorized.
 
 1. Create server.js file to house server code
 2. Create package.json file: `npm init -y`
@@ -52,14 +52,14 @@ export class App extends Component {
 export default App
 ```
 9. Go to the package.json file within your client directory (NOT the package.json file outside of the client directory) and add a proxy so your server can be hit when the client uses a specified route with the Axios package
-  - "proxy": "http:localhost:5000"
+  - `"proxy": "http:localhost:5000"`
   - If you're unsure of where or how to add the code to your client package.json file, I've pasted below how I added the proxy to my file...
 ```
 {
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5000", 
 ```
 10. With your proxy added, client configured, and server route being hit on the front end, the last thing to do is configure the scripts your server.js file uses.
   - Within the package.json file for the server (the one *outside* of your client directory), you'll need to make your script files mimic the below code. The easiest thing to do will be to remove the code within the scripts object in your package.json file and replace it with what's below.
